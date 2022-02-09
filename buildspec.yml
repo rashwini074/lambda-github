@@ -1,14 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Feb  9 14:15:14 2022
-
-@author: ashwi
-"""
 
 version: 0.2
 phases:
     install:
-        runtime-version:
+        runtime-versions:
             python: 3.8
         commands:
             -echo "Installing dependencies..."
